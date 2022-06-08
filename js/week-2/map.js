@@ -5,10 +5,9 @@
 
 let a = [1, 2, 3];
 
-const b = a.map(x => x*x);
+// const b = a.map(x => x*x);
 
-console.log(b);
-
+// console.log(b);
 
 const nomes = ['João', 'Ana', 'Maria', 'Rodrigo'];
 
@@ -17,4 +16,4 @@ const retornoMap = nomes.map((nomeAtual) => {
     return nomeAtual.toUpperCase();
 });
 
-// console.log(retornoMap);
+console.log(retornoMap);

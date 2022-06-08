@@ -12,3 +12,4 @@ data.forEach(function(valor, i, a) {
 });
 
 console.log(data);
+// console.log(sum);

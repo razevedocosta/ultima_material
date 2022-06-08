@@ -11,3 +11,12 @@ nome = alterarNome();
 
 console.log(nome);
 console.log(sobrenome);
+
+
+// let a = 8;
+
+// function quadrado(numero) {
+//     return numero * numero;
+// }
+
+// console.log(quadrado(a));

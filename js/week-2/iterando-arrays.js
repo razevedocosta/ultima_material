@@ -5,23 +5,23 @@ for (let letra of texto) {
     string += letra;
 }
 
-console.log(string);
+console.log("Agora o valor da string é: "+string);
 
-let textoEmMaiusculo = "";
+// let textoEmMaiusculo = "";
 
-texto.forEach(letra => {
-    textoEmMaiusculo += letra.toUpperCase();
-});
+// texto.forEach(letra => {
+//     textoEmMaiusculo += letra.toUpperCase();
+// });
 
-console.log(textoEmMaiusculo);
+// console.log(textoEmMaiusculo);
 
-let vogais = "";
-for (let i=0; i<texto.length; i++) {
-    let cadaLetra = texto[i];
+// let vogais = "";
+// for (let i=0; i<texto.length; i++) {
+//     let cadaLetra = texto[i];
 
-    if (/[aeiou]/.test(cadaLetra)) {
-        vogais += cadaLetra;
-    }
-}
+//     if (/[aeiou]/.test(cadaLetra)) {
+//         vogais += cadaLetra;
+//     }
+// }
 
-console.log(vogais);
+// console.log(vogais);
