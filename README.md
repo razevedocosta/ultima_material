@@ -1,5 +1,10 @@
-# aula_git
-Projeto inicial sobre git
+# ultima_material
+Arquivos de códigos utilizados nas aulas de:
+ 
+- html
+- css
+- javascript
+- git
 
 Autor: Rodrigo Azevedo
 
