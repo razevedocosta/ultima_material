@@ -1,0 +1,25 @@
+Semana 3
+
+JavaScript básico - parte 3: 
+Programação O-O, escopo de variáveis e declarações de tratamento de erros
+
+# Programação Orientada a Objetos => OK
+- objetos, atributos, métodos, herança, polimorfismo
+- manipulação de objetos
+- utilizando métodos 
+
+# Criando objetos => OK
+- object literals
+- utilizando o operador new
+- object.create()
+
+# Escopo de variável => OK
+- entendendo o this
+- usando bind
+- métodos call e apply
+
+# Utilizando herança => OK
+- export default
+- superclasse
+  OBS: iniciar com npm init -y
+       inserir "type": "module"
