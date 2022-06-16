@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        #area_botoes {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        button {
+            border: none;
+            color: white;
+            font-size: 15px;
+            background-color: #5394F9;
+            border-radius: 8px;
+            width: 200px;
+            height: 40px;
+            padding: 5px 15px;
+        }
+
+        button:hover {
+            background-color: black;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        ul li {
+            color: #5394F9;
+            border: 2px solid #5394F9;
+            border-radius: 20px;
+            padding: 5px 12px;
+            margin: 0 10px;
+        }
+
+        ul li:hover {
+            color: black;
+            border-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="area_botoes">
+        <button type="button">Selecionar um curso</button>
+
+        <ul>
+            <li>Programação</li>
+            <li>Marketing</li>
+            <li>Design UX/UI</li>
+            <li>Ciência de Dados</li>
+        </ul>
+    </div>
+</body>
+</html>

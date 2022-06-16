@@ -1,0 +1,20 @@
+Semana 2
+
+Criando uma página HTML simples com CSS externo
+
+# Revisão de HTML
+- tags semânticas
+- formulários
+- validações
+- criando tags com id e class
+
+# CSS
+- inline, interno, externo
+- primeiros estilos
+- criando um cabeçalho
+- google fonts
+
+# Conceitos de design responsivo
+- posicionamento
+- flexbox
+- bootstrap
