@@ -7,5 +7,3 @@ Arquivos de códigos utilizados nas aulas de:
 - javascript
 
 Autor: Rodrigo Azevedo da Costa
-
-zxczxc
