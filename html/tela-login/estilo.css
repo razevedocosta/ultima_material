@@ -1,0 +1,67 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #c4c4c4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input {
+    padding: 12px 10px;
+    font-size: 14px;    
+    margin-bottom: 10px;
+
+    background-color: #cecece;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #2A88C8;
+
+    padding: 12px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#login_itens {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    margin: 20px 0;
+    justify-content: space-between;
+}
