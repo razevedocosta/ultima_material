@@ -1,0 +1,21 @@
+
+# Utilizando node js para criar um servidor
+- criando o arquivo server.js
+- require
+- package.json
+
+# Definição de rotas
+- criando outras páginas para visualizar
+- npm init
+- npm install express@4.16.3 --save-exact
+- organização de pastas
+
+- criando arquivo routes.js
+
+- npm install (-g) nodemon@1.18.4 --save-dev --save-exact
+
+- alterar o package.json
+- npm start para executar o valor start
+
+# Listagem de elementos
+- npm install marko@4.13.4-1 --save-exact
