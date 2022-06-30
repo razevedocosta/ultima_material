@@ -1,11 +1,11 @@
 # ultima_material
 Arquivos de códigos utilizados nas aulas de:
  
-- html
 - css
-- javascript
 - git
+- html
+- javascript
 
-Autor: Rodrigo Azevedo
+Autor: Rodrigo Azevedo da Costa
 
 zxczxc
