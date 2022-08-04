@@ -3,10 +3,10 @@
 let nome = 'Elias';
 let cont = 0;
 
-while (cont < 10) {           // condição para verificar
-    console.log(cont + nome); // execução do código
-    cont = cont + 1;          // incremento da variável
-}
+// while (cont < 10) {           // condição para verificar
+//     console.log(cont + nome); // execução do código
+//     cont = cont + 1;          // incremento da variável
+// }
 
 // do {           
 //     console.log(cont + nome);
@@ -14,6 +14,6 @@ while (cont < 10) {           // condição para verificar
 // } while (cont < 10)
 
 // inicialização; condição; incremento
-// for (cont; cont<10; cont++) {
-//     console.log(cont + nome); 
-// }
+for (cont; cont<10; cont++) {
+    console.log(cont + nome); 
+}

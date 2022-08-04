@@ -7,9 +7,11 @@ let sum = 0;
 //     sum = sum + valor;
 // });
 
-data.forEach(function(valor, i, a) {
-    a[i] = valor + 1;
-});
+data.forEach(
+    function(valor, i, a) {
+        a[i] = valor + 1;
+    }
+);
 
 console.log(data);
 // console.log(sum);

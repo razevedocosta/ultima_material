@@ -4,12 +4,12 @@ JavaScript básico - parte 2:
 Switch-case, laços de repetição (while, do-while, for), arrays
 foreach, funções e arrow functions
 
-# Laços de repetição => OK
+# Laços de repetição
 - while
 - do/while
 - for
 
-# Listas => OK
+# Listas
 - criando arrays
 - propriedades e métodos
 - iterando arrays

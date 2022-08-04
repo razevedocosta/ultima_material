@@ -1,22 +1,22 @@
-let nome = 'elias';
-const sobrenome = 'silva';
+// let nome = 'elias';
+// const sobrenome = 'silva';
 
-function alterarNome() {
-    let nome = 'joaquim';
+// function alterarNome() {
+//     let nome = 'joaquim';
 
-    return nome;
-}
-
-nome = alterarNome();
-
-console.log(nome);
-console.log(sobrenome);
-
-
-// let a = 8;
-
-// function quadrado(numero) {
-//     return numero * numero;
+//     return nome;
 // }
 
-// console.log(quadrado(a));
+// nome = alterarNome();
+
+// console.log(nome);
+// console.log(sobrenome);
+
+
+let a = 5;
+
+function quadrado(numero) {
+    return numero * numero;
+}
+
+console.log(quadrado(a));
