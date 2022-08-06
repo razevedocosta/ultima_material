@@ -15,5 +15,9 @@
     "prompt-sync": "^4.2.0",
     "require": "^2.4.20",
     "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3"
   }
 }

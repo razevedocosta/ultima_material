@@ -1,0 +1,11 @@
+
+Semana 5
+
+Programação Javascript e testes de unidade
+
+# Criação do projeto e instalação do Jest
+- verificando as versões (node, npm, yarn)
+- executar npm init -y (criar o arquivo package.json)
+- executar yarn add -D jest @types/jest (instalar jest)
+
+# Primeiro teste

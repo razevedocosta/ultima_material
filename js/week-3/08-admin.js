@@ -1,4 +1,4 @@
-import Usuario from "./classe.js";
+import Usuario from "./05-classe.js";
 
 class Admin extends Usuario {
     constructor(nome, email, tipo = 'admin') {

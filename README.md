@@ -5,5 +5,6 @@ Arquivos de códigos utilizados nas aulas de:
 - git
 - html
 - javascript
+- testes unitários (Jest)
 
 Autor: Rodrigo Azevedo da Costa
