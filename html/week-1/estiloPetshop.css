@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E27613;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul li {
+    display: inline;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Slideshow */
+.slideshow {
+    width: 960px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #e4e4e4;
+}
+
+.servicos {
+    width: 960px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.servicos_esquerda > ul li {
+    margin-left: 40px;
+}
+
+.servicos_direita > ul li {
+    margin-left: 40px;
+}
+
+.servicos_itens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: #E27613;
+}
+
+/* Produtos */
+.produtos {
+    width: 960px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.produtos_itens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 200px;
+    height: 250px;
+    background-color: #F9E4D0;
+    border-radius: 10px;
+}
+
+aside:hover {
+    cursor: pointer;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,118,19,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+/* Contato */
+.contato {
+    width: 960px;
+    height: auto;
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    border: 1px #e4e4e4 solid;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #22CE34;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #E27613;
+}
