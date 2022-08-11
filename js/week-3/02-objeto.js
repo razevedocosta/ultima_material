@@ -26,6 +26,7 @@ cliente.dependentes = {
     sobrenome: 'rodrigo'
 }
 
+// corrigir inserção no objeto
 cliente.dependentes.push({
     nome: 'ana',
     sobrenome: 'maria'
@@ -92,4 +93,3 @@ class Pessoa {
         console.log(this.saldo);
     }
 }
-

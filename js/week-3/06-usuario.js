@@ -16,10 +16,11 @@ const aluno = {
 // dados();
 
 // É como se o código fosse exibido assim:
-const exibir = function() {
-    console.log(this.nome)
-}
+// const exibir = function() {
+//     console.log(this.nome)
+// }
 
+// corrigir exibir
 const exibirNome = exibir.bind(aluno)
 
 exibir();
