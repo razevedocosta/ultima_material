@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    background-color: cadetblue;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
