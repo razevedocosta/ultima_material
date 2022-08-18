@@ -1,21 +1,40 @@
+Semana 4
+
+JavaScript avançado e Node JS
+Utilizando Node JS para criação de um projeto
 
 # Utilizando node js para criar um servidor
 - criando o arquivo server.js
-- require
+- require / import
 - package.json
 
-# Definição de rotas
+# Projeto 1 [api]
 - criando outras páginas para visualizar
-- npm init
+- npm init (cria o projeto node)
 - npm install express@4.16.3 --save-exact
 - organização de pastas
+- atenção com a pasta node_modules
 
+# Definição de rotas
+- criando o arquivo custom-express.js
 - criando arquivo routes.js
 
 - npm install (-g) nodemon@1.18.4 --save-dev --save-exact
+- executar nodemon server.js
 
 - alterar o package.json
-- npm start para executar o valor start
+- script "start": "nodemon server.js", executar npm start
 
-# Listagem de elementos
+# Listagem de elementos e banco de dados 
 - npm install marko@4.13.4-1 --save-exact
+- criar o arquivo.marko
+- alterar o arquivo rotas.js pra exibir o arquivo.marko
+- npm install sqlite3@4.0.2 --save-exact
+
+# Projeto 2 [cep]
+
+# Projeto 3 [posts]
+- npm install express body-parser
+- criação do arquivo index.js
+- instalação do plugin Thunder Client
+- criando get para consulta e post para cadastro
