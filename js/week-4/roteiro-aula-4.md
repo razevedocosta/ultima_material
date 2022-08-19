@@ -1,19 +1,19 @@
 Semana 4
 
 JavaScript avançado e Node JS
-Utilizando Node JS para criação de um projeto
+Utilizando NodeJS para criação de um projeto
 
-# Utilizando node js para criar um servidor
+# Utilizando NodeJS para criar um servidor
 - criando o arquivo server.js
-- require / import
-- package.json
+- diferenças entre require / import
+- npm init (cria o projeto node)
+- arquivo package.json
 
 # Projeto 1 [api]
-- criando outras páginas para visualizar
-- npm init (cria o projeto node)
+- criando páginas para visualizar
 - npm install express@4.16.3 --save-exact
-- organização de pastas
 - atenção com a pasta node_modules
+- organização de pastas
 
 # Definição de rotas
 - criando o arquivo custom-express.js
@@ -21,7 +21,6 @@ Utilizando Node JS para criação de um projeto
 
 - npm install (-g) nodemon@1.18.4 --save-dev --save-exact
 - executar nodemon server.js
-
 - alterar o package.json
 - script "start": "nodemon server.js", executar npm start
 

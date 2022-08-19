@@ -11,6 +11,7 @@ cep.addEventListener("blur", (e) => {
     });
 });
 
+
 function enviar() {
     let cep = document.getElementById("cep").value;
     let bairro = document.getElementById("bairro").value;
