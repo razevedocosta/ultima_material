@@ -19,7 +19,7 @@ app.get("/all", (req, resp) => {
 
 app.post("/new", bodyParser.json(), (req, resp) => {
     let id = generateID();
-    let title = req.body.title;
+    let title = req.body.title; 
     let description = req.body.description;
 
     posts.push({
