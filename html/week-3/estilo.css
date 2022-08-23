@@ -14,3 +14,36 @@ h1{
 h1 > span {
     color: red;
 }
+
+/* 02-login.html */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 36px;
+    padding-left: 8px;
+    border: none;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #F34C28;
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+}
