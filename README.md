@@ -25,4 +25,8 @@ Arquivos de códigos utilizados nas aulas de:
 
 **5 testes unitários (Jest)**
 
+** Links para projetos **
+  - https://www.frontendmentor.io/challenges
+  - https://github.com/florinpop17/app-ideas
+
 Autor: Rodrigo Azevedo da Costa
