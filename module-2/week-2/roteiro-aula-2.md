@@ -10,6 +10,7 @@ Criando uma página HTML simples com CSS externo
 - anatomia de um código CSS (propriedade e valor)
 - tipos de seletores (id, class, elemento)
 - tipos de chamada (inline, interno, externo)
+- criação de divs e propriedades (width, height, content, border, padding, margin)
 
 # Criando os primeiros estilos
 - primeiros estilos
@@ -19,4 +20,5 @@ Criando uma página HTML simples com CSS externo
 # Conceitos de design responsivo
 - posicionamento
 - flexbox
+- grid
 - bootstrap
