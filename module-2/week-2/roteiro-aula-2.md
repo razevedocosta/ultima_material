@@ -16,9 +16,10 @@ Criando uma página HTML simples com CSS externo
 - primeiros estilos
 - criando um cabeçalho
 - utilizando fontes externas (google fonts)
+- como fazer o posicionamento de elementos
 
 # Conceitos de design responsivo
-- posicionamento
 - flexbox
 - grid
+- media queries
 - bootstrap
