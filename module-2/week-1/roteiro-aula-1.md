@@ -23,3 +23,12 @@ Criando uma página HTML simples
 # Organização dos arquivos
 - criação das pastas
 - separação dos arquivos
+
+# Atalhos Visual Studio Code
+- ctrl + p: ir para um arquivo específico
+- ctrl + b: abrir e fechar a barra lateral
+- ctrl + d: selecionar tags iguais ao mesmo tempo
+- alt + up: mover linha para cima
+- alt + down: mover linha para baixo
+- shift + alt + up: copiar linhar para cima
+- shift + alt + down: copiar linha para baixo
