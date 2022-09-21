@@ -5,12 +5,13 @@ Criando uma página HTML simples com CSS externo
 - estrutura de um documento HTML
 - seção head
 - uso de tags
+- ferramenta do desenvolver DevTools
 
 # Conhecendo o CSS
 - anatomia de um código CSS (propriedade e valor)
 - tipos de seletores (id, class, elemento)
-- tipos de chamada (inline, interno, externo)
-- criação de divs e propriedades (width, height, content, border, padding, margin)
+- tipos de utilização (inline, interno, externo)
+- criação de divs e definindo propriedades (width, height, content, border, padding, margin)
 
 # Criando os primeiros estilos
 - primeiros estilos
@@ -22,4 +23,5 @@ Criando uma página HTML simples com CSS externo
 - flexbox
 - grid
 - media queries
-- bootstrap
+- biblioteca bootstrap
+- templates de códigos
