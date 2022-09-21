@@ -9,8 +9,8 @@ Criando uma página HTML simples com CSS externo
 
 # Conhecendo o CSS
 - anatomia de um código CSS (propriedade e valor)
-- tipos de seletores (id, class, elemento)
 - tipos de utilização (inline, interno, externo)
+- tipos de seletores (id, class, elemento)
 - criação de divs e definindo propriedades (width, height, content, border, padding, margin)
 
 # Criando os primeiros estilos

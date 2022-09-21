@@ -36,3 +36,17 @@ ul li:hover {
     cursor: pointer;
     background-color: #059862;
 }
+
+.btn-black {
+    background-color: #282A35;
+}
+
+.btn-red {
+    color: black;
+    background-color: rgb(255,192,199);
+}
+
+.btn-yellow{
+    color: black;
+    background-color: #FFF4A3;
+}
