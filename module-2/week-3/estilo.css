@@ -53,3 +53,13 @@ button {
 
     margin-bottom: 20px;
 }
+
+main {
+    width: 960px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px auto;
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+}
