@@ -63,3 +63,9 @@ div {
     background-position: center;
     background-size: cover;
 }
+
+section {
+    width: 960px;
+    height: 300px;
+    margin: 10px auto;
+}
