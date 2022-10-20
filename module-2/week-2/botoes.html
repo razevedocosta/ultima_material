@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        :root {
+            --blue: #5394F9;
+            --white: #FFFFFF;
+        }
+
+        #botoes {
+            width: 960px;
+            height: 100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            border: none;
+            border-radius: 8px;
+            color: var(--white);
+            font-size: 16px;
+            font-weight: bold;
+            background-color: var(--blue);
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: black;
+            transition: 1s;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        ul li {
+            width: auto;
+            height: 20px;
+            border: 2px solid var(--blue);
+            border-radius: 25px;
+            color: var(--blue);
+            padding: 5px 15px;
+            margin: 0 10px;
+        }
+
+        ul li:hover {
+            cursor: pointer;
+            color: white;
+            border: 2px solid white;
+            background: rgb(2,0,36);
+            background: linear-gradient(191deg, rgba(2,0,36,1) 0%, rgba(130,25,105,0.4962359943977591) 30%, rgba(0,212,255,1) 100%);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--blue);
+        }
+
+        a:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="botoes">
+        <button>Selecionar um curso</button>
+
+        <ul>
+            <a href="https://promo.ultima.school/analise-de-dados/"><li>Programação</li></a>
+            <li>Marketing</li>
+            <li>Design</li>
+            <li>Ciência de Dados</li>
+        </ul>
+    </div>
+</body>
+</html>
