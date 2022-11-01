@@ -1,12 +1,17 @@
-let eleitor1 = 'diana';
-let idadeEleitor1 = 16;
+let nota1 = 10;
+let nota2 = 6;
+let nota3 = 5;
+let nota4 = 8;
+let nota5 = 7.5;
 
-let eleitor2 = 'erick';
-let idadeEleitor2 = 13;
+let media;
 
-// A PESSOA DEVE TER 16 ANOS COMPLETOS OU MAIS PARA VOTAR
-if (idadeEleitor1 >= 16) {   // SE FOR VERDADEIRO EXECUTA O IF
-    console.log(`${eleitor1} está apta para votar!`);
-} else {                    // SE FOR FALSO EXECUTA O ELSE
-    console.log(`${eleitor1} NÃO está apto para votar!`);
+media = (nota1+nota2+nota3+nota4+nota5)/5;
+
+console.log(`A média do aluno é: ${media}`);
+
+if ( media > 7) {
+    console.log('Aprovado!');
+} else {
+    console.log('Reprovado!');
 }

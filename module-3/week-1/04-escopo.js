@@ -1,13 +1,17 @@
+// declaração de variáveis
 let nome = 'elias';
 const sobrenome = 'silva';
+let valor = 5;
 
+// processamento
 function alterarNome() {
-    let nome = 'joaquim';
+    let valor = 'rodrigo';
 
-    return nome;
+    return valor;
 }
 
-nome = alterarNome();
+console.log(alterarNome());
 
-console.log(nome);
+// exibição do resultado
+console.log(valor);
 console.log(sobrenome);

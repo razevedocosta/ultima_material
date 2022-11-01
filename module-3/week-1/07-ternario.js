@@ -1,15 +1,15 @@
-// const nome = "Rodrigo";
-// const idade = 15;
-// const bebidaMaior = "cerveja";
-// const bebidaMenor = "suco";
+const nome = "Rodrigo";
+const idade = 18;
+const bebidaMaior = "cerveja";
+const bebidaMenor = "suco";
 
-// const pedido = `${nome} diz: "por favor, quero beber ${idade >= 18 ? bebidaMaior : bebidaMenor}"`
+const pedido = `${nome} diz: "por favor, quero beber ${idade >= 18 ? bebidaMaior : bebidaMenor}"`
 
-// console.log(pedido);
+console.log(pedido);
 
-let nota1 = 6;
-let nota2 = 10;
+// let nota1 = 6;
+// let nota2 = 10;
 
-const media = (nota1 + nota2) / 2;
+// const media = (nota1 + nota2) / 2;
 
-console.log(media > 7 ? `Média ${media}. Aprovado` : `Média ${media}. Reprovado`);
+// console.log(media > 7 ? `Média ${media}. Aprovado` : `Média ${media}. Reprovado`);
