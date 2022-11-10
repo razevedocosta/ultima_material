@@ -8,7 +8,7 @@ let cont = 0;
 //     cont = cont + 1;          // incremento da variável
 // }
 
-// do {           
+// do {
 //     console.log(cont + nome);
 //     cont = cont + 1;
 // } while (cont < 10)

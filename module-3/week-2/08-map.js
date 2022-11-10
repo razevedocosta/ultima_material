@@ -3,17 +3,17 @@
    gera uma nova lista com a mesma quantidade de itens originais.
 */
 
-let a = [1, 2, 3];
+// let a = [1, 2, 3];
 
-const b = a.map(x => x*x);
+// const b = a.map(x => x*x);
 
-console.log(b);
+// console.log(b);
 
-// const nomes = ['João', 'Ana', 'Maria', 'Rodrigo'];
+const nomes = ['João', 'Ana', 'Maria', 'Rodrigo'];
 
-// const retornoMap = nomes.map((nomeAtual) => {
-//     console.log(nomeAtual);
-//     return nomeAtual.toUpperCase();
-// });
+const retornoMap = nomes.map((nomeAtual) => {
+    console.log(nomeAtual);
+    return nomeAtual.toUpperCase();
+});
 
-// console.log(retornoMap);
+console.log(retornoMap);

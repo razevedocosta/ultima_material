@@ -14,7 +14,8 @@ console.log(mediasAlunos);
 // mediasAlunos.push(10);
 
 // Adicionar um elemento no início
-mediasAlunos.unshift(2);
-console.log(mediasAlunos);
+// mediasAlunos.unshift(2);
+// console.log(mediasAlunos);
 
-console.log(mediasAlunos.indexOf(7));
+// Procura o elemento de valor 9 e retorna o índice, se existir
+console.log(mediasAlunos.indexOf(9));

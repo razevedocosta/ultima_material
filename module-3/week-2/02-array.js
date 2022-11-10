@@ -1,6 +1,6 @@
 // 1 - Definição de Arrays
 
-// 1.1 Array  literal
+// 1.1 Array literal
 const nomesAlunos = ["Ana", "Beatriz", "Carla", "Daiana"];
 const mediasAlunos = [7, 8, 5, 10];
 const numerosPrimos = [2, 3, 5, 7, 11];

@@ -1,24 +1,24 @@
-let pesoRodrigo = 70;
-let alturaRodrigo = 1.78;
+let pesoErica = 120;
+let alturaErica = 1.78;
 
-let pesoLeonardo = 70;
-let alturaLeonardo = 1.7;
+let pesoRicardo = 70;
+let alturaRicardo = 1.7;
 
-let pesoCintia = 50;
-let alturaCintia = 1.65;
+let pesoGrazi = 50;
+let alturaGrazi = 1.65;
 
-let imcRodrigo = calcularIMC(pesoRodrigo, alturaRodrigo, 'Rodrigo');
-let imcLeonardo = calcularIMC(pesoLeonardo, alturaLeonardo, 'Leonardo');
-let imcCintia = calcularIMC(pesoCintia, alturaCintia, 'Cintia');
+let imcErica = calcularIMC(pesoErica, alturaErica, 'Erica');
+let imcRicardo = calcularIMC(pesoRicardo, alturaRicardo, 'Ricardo');
+let imcGrazi = calcularIMC(pesoGrazi, alturaGrazi, 'Grazi');
 
 function calcularIMC(peso, altura, nome) {
     let imc = peso / (altura * altura);
 
     if (imc < 18.5) {
-        console.log(`${nome}: Magreza`);
+        console.log(`${nome} ${imc}: Magreza`);
     } else if (imc >= 18.5 || imc <= 24.9) {
-        console.log(`${nome}: Normal`);
+        console.log(`${nome} ${imc}: Normal`);
     } else {
-        console.log(`${nome}: Obesidade`);
+        console.log(`${nome} ${imc}: Obesidade`);
     }
-}
+} // corrigir cálculo do IMC
