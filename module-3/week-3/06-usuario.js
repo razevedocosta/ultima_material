@@ -9,7 +9,7 @@ const aluno = {
 }
 
 // Entendendo o this
-// aluno.visualizar();
+aluno.visualizar();
 
 // Exibir undefined quando não existe referência a uma variável válida
 // const dados = aluno.visualizar;

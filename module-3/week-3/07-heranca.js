@@ -18,6 +18,8 @@ const admin = {
     }
 }
 
+// Permite trabalhar com a ideia de herança entre classes
+// o objeto admin passa a ter acesso aos métodos do objeto usuario
 Object.setPrototypeOf(admin, usuario);
 
 admin.criarCurso();

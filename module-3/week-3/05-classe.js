@@ -12,4 +12,4 @@ export default class Usuario {
 
 const aluno = new Usuario('Rodrigo', 'rodrigo@gmail.com');
 
-// console.log(aluno.visualizar());
+console.log(aluno.visualizar());

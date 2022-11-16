@@ -15,7 +15,7 @@ let a = new Array();
 
 // Create
 let z = Object.create({
-x: 1, y: 1
+  x: 1, y: 1
 });
 
 console.log(z.x + z.y);

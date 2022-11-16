@@ -14,5 +14,4 @@ const novoAdmin = new Admin('Severo', 'severo@gmail.com');
 
 console.log(novoAdmin);
 console.log(novoAdmin.visualizar());
-
 console.log(novoAdmin.criarCurso('Javascript'));

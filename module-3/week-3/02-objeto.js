@@ -26,7 +26,7 @@ cliente.dependentes = {
     sobrenome: 'rodrigo'
 }
 
-// corrigir inserção no objeto
+// corrigir inserção no objeto para sobrescrever
 cliente.dependentes.push({
     nome: 'ana',
     sobrenome: 'maria'
