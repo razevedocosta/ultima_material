@@ -6,8 +6,9 @@ Utilizando NodeJS para criação de um projeto
 # Utilizando NodeJS para criar um servidor
 - criando o arquivo server.js
 - diferenças entre require / import
-- npm init (cria o projeto node)
+- npm init -y (cria o projeto node)
 - arquivo package.json
+- instalar express: npm install express
 
 # Projeto 1 [api]
 - criando páginas para visualizar
@@ -20,9 +21,9 @@ Utilizando NodeJS para criação de um projeto
 - criando arquivo routes.js
 
 - npm install (-g) nodemon@1.18.4 --save-dev --save-exact
-- executar nodemon server.js
 - alterar o package.json
 - script "start": "nodemon server.js", executar npm start
+- executar nodemon server.js
 
 # Listagem de elementos e banco de dados 
 - npm install marko@4.13.4-1 --save-exact
@@ -37,3 +38,8 @@ Utilizando NodeJS para criação de um projeto
 - criação do arquivo index.js
 - instalação do plugin Thunder Client
 - criando get para consulta e post para cadastro
+
+# Projeto 4 [ejs]
+- criando o projeto
+- instalando dependências
+- organização das pastas do projeto

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head'); %>
+
+<body class="container">
+    <%- include('../partials/header'); %>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Node com EJS</h1>
+            <p>Trabalhando com arquivos EJS</p>
+            <p><%= subtitle %></p>
+        </div>
+
+        <ul>
+            <% properties.forEach(function(item){ %>
+                <li>
+                    <strong><%= item.title %></strong><%= item.message %>
+                </li>
+            <% }) %>
+        </ul>
+    </main>
+    
+    <%- include('../partials/footer'); %>
+</body>
+</html>

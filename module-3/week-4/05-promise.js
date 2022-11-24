@@ -1,4 +1,4 @@
-let aceitar = true;
+let aceitar = false;
 
 console.log("Pedir Uber");
 
@@ -12,6 +12,6 @@ const promessa = new Promise((resolve, reject) => {
 console.log("Aguardando");
 
 promessa
-.then(result => console.log(result))
-.catch(erro => console.log(erro))
-.finally(() => console.log("Finalizada"))
+    .then(result => console.log(result))
+    .catch(erro => console.log(erro))
+    .finally(() => console.log("Finalizada"))

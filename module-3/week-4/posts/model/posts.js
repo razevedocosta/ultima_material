@@ -20,5 +20,5 @@ function generateID() {
 }
 
 export default {
-    posts, getAll, newPost, deletePost
+    posts, getAll, newPost
 }

@@ -8,6 +8,7 @@ const servidor = createServer(function (req, resp) {
             </head>
             <body>
                 <h1> Petshop Shop do Pet </h1>
+                <p>Exemplo de parágrafo do texto do trabalho</p>
             </body> 
         </html>
     `);
