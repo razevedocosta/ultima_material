@@ -1,5 +1,5 @@
 const nome = "Rodrigo";
-const idade = 18;
+const idade = 17;
 const bebidaMaior = "cerveja";
 const bebidaMenor = "suco";
 

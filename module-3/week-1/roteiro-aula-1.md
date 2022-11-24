@@ -12,13 +12,13 @@ condicional
 - NPM
 - VS Code
 
-# Variáveis => OK
+# Variáveis
 - Tipo number
 - Tipo string
 - Tipo Boolean
 - Tipo Null e Undefined
 
-# Declaração de variáveis => OK
+# Declaração de variáveis
 - var, let, const
 
 # Operadores

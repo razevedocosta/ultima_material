@@ -1,5 +1,9 @@
-const valores = [100, 200, 300, 400, 500];
+let nota = 5;
 
-for (let i = 0; i < valores.length; i++) {
-    console.log("Indice:", i, "Valor:", valores[i]); 
+let cinco = '5';
+
+if (nota === cinco) {
+    console.log("são iguais");
+} else {
+    console.log("são diferentes");
 }
