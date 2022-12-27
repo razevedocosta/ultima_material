@@ -32,10 +32,10 @@ class Philips extends Parafuso {
 class Allen extends Parafuso{}
 
 //criando e usando a classe
-let parafuso = new Parafuso()
+// let parafuso = new Parafuso() //classe não pode ser instanciada
 let fenda = new Fenda()
 let philips = new Philips()
 let allen = new Allen()
 
 console.log(fenda.tipo, philips.tipo);
-console.log(allen.tipo);
+// console.log(allen.tipo);

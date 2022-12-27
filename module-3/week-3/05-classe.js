@@ -6,7 +6,7 @@ export default class Usuario {
     }
 
     visualizar() {
-        return `Nome:${this.nome} - Email: ${this.email} - Tipo: ${this.tipo}`
+        return `Nome: ${this.nome} - Email: ${this.email} - Tipo: ${this.tipo}`
     }
 }
 

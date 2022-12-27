@@ -1,56 +1,56 @@
-const cliente = {
-    nome: 'Rodrigo',
-    idade: 31,
-    rg: 22884640,
-    email: 'rodrigo@gmail.com'
-}
+// const cliente = {
+//     nome: 'Rodrigo',
+//     idade: 31,
+//     rg: 22884640,
+//     email: 'rodrigo@gmail.com'
+// }
 
-// Acessar um objeto e exibir os dados
-console.log(cliente.nome);
+// // Acessar um objeto e exibir os dados
+// console.log(cliente.nome);
 
-const chaves = ['nome', 'idade', 'rg', 'email'];
+// const chaves = ['nome', 'idade', 'rg', 'email'];
 
-chaves.forEach(info => console.log(cliente[info]));
+// chaves.forEach(info => console.log(cliente[info]));
 
-// Adicionando e alterando
-cliente.fone = '9887542156';
-console.log(cliente);
+// // Adicionando e alterando
+// cliente.fone = '9887542156';
+// console.log(cliente);
 
-const delRg = delete cliente.rg;
+// const delRg = delete cliente.rg;
 
-// Inserir um valor do tipo array
-// Inserir um valor do tipo objeto
+// // Inserir um valor do tipo array
+// // Inserir um valor do tipo objeto
 
-cliente.dependentes = {
-    nome: 'joao',
-    sobrenome: 'rodrigo'
-}
+// cliente.dependentes = {
+//     nome: 'joao',
+//     sobrenome: 'rodrigo'
+// }
 
-// corrigir inserção no objeto para sobrescrever
-cliente.dependentes.push({
-    nome: 'ana',
-    sobrenome: 'maria'
-});
+// // corrigir inserção no objeto para sobrescrever
+// cliente.dependentes.push({
+//     nome: 'ana',
+//     sobrenome: 'maria'
+// });
 
-// Entro em dependentes e faço uma filtragem para encontrar o nome joao
-const novo = cliente.dependentes.filter(dep => dep.nome === 'joao');
+// // Entro em dependentes e faço uma filtragem para encontrar o nome joao
+// const novo = cliente.dependentes.filter(dep => dep.nome === 'joao');
 
 // Funções
-const cliente = {
-    nome: 'Rodrigo',
-    idade: 31,
-    rg: 22884640,
-    email: 'rodrigo@gmail.com',
-    saldo: 100,
+// const cliente = {
+//     nome: 'Rodrigo',
+//     idade: 31,
+//     rg: 22884640,
+//     email: 'rodrigo@gmail.com',
+//     saldo: 100,
 
-    depositar: function(valor) {
-        this.saldo += valor;
-    }
-}
+//     depositar: function(valor) {
+//         this.saldo += valor;
+//     }
+// }
 
-console.log(cliente.saldo);
-cliente.depositar(100);
-console.log(cliente.saldo);
+// console.log(cliente.saldo);
+// cliente.depositar(100);
+// console.log(cliente.saldo);
 
 // Percorrendo com for
 let relatorio = '';
