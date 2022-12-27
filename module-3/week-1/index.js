@@ -1,9 +1,10 @@
-let nota = 5;
+let valorMetroQuadrado = 50;
+let comprimento = 12;
+let largura = 6;
+let valorTotal;
 
-let cinco = '5';
+let area = comprimento * largura;
+valorTotal = area * valorMetroQuadrado;
 
-if (nota === cinco) {
-    console.log("são iguais");
-} else {
-    console.log("são diferentes");
-}
+console.log(`Área: ${area} m2
+No valor total de: R$ ${valorTotal}`);

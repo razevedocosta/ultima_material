@@ -10,7 +10,7 @@ media = (nota1+nota2+nota3+nota4+nota5) / 5;
 
 console.log(`A média do aluno é: ${media}`);
 
-if (media >= 7.3) {
+if (media >= 7) {
     console.log('Aprovado!');
 } else {
     console.log('Reprovado!');

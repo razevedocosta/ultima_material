@@ -1,4 +1,4 @@
-const texto = 'Oranges';
+const texto = 'Grape';
 
 switch (texto) {
   case 'Oranges':
