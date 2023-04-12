@@ -9,13 +9,14 @@ const nomesAlunos = ["Ana", "Beatriz", "Carla", "Daiana"];
 // console.log(nomesAlunos[1]);
 
 const mediasAlunos = [10, 5, 6.5, 9, 8.2];
-console.log(mediasAlunos);
+// console.log(mediasAlunos);
 // Adicionar um elemento no final
 // mediasAlunos.push(10);
 
 // Adicionar um elemento no início
 // mediasAlunos.unshift(2);
-// console.log(mediasAlunos);
+
+console.log(mediasAlunos);
 
 // Procura o elemento de valor 9 e retorna o índice, se existir
 console.log(mediasAlunos.indexOf(9));

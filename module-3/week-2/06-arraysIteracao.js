@@ -2,14 +2,14 @@ let texto = ["Hello World"];
 let string = "";
 
 //string => |H|e|l|l|o| |W|o|r|l|d|
-// for (let letra of texto) {
-//     string += letra;
-// }
+for (let letra of texto) {
+    string += letra;
+}
 // console.log("Agora o valor da string é: "+string);
 
 // let textoEmMaiusculo = "";
 
-// texto.forEach(letra => {
+// texto.forEach(letra => { 
 //     textoEmMaiusculo += letra.toUpperCase();
 // });
 

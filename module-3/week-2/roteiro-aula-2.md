@@ -9,13 +9,13 @@ foreach, funções e arrow functions
 - do/while
 - for
 
-# Listas => OK
+# Listas
 - criando arrays
 - propriedades e métodos
 - iterando arrays
 - foreach, map, filter
 
-# Funções => OK
+# Funções
 - criando uma função
 - entendendo a diferença de escopo
 - arrow functions
