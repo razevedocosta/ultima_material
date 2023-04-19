@@ -22,6 +22,11 @@ Arquivos de códigos utilizados nas aulas de:
   - Resolvendo conflitos
   
 **4 javascript**
+  - Definindo variáveis e operadores
+  - Laços de repetição, listas e funções
+  - Utilizando objetos, escopo de variável e herança
+  - Utilizando nodejs, definição de rotas
+  - Utilizando jest para criação de testes
 
 **5 testes unitários (Jest)**
 
