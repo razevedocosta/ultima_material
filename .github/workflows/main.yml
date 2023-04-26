@@ -1,15 +1,19 @@
 name: ci
 
 on:
-    push:
+  push:
+    branches: [ "developer" ]
+  pull_request:
+    branches: [ "developer" ]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+
+    runs-on: ubuntu-latest
 
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-        - name: Olá Mundo!
-          run: echo 'Olá Mundo!'
+    - name: Olá Mundo!
+      run: echo 'Olá Mundo!'
