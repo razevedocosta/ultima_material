@@ -1,15 +1,15 @@
 name: ci
 
 on:
-  push:
+    push:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  steps:
-    - name: Olá Mundo!
-      run: echo 'Olá Mundo!'
+    steps:
+        - name: Olá Mundo!
+          run: echo 'Olá Mundo!'
