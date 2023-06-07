@@ -32,3 +32,6 @@ Criando uma página HTML simples
 - alt + down: mover linha para baixo
 - shift + alt + up: copiar linhar para cima
 - shift + alt + down: copiar linha para baixo
+
+- Maneiras de definir estilo com CSS
+- inline, interno, externo
