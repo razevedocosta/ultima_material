@@ -1,4 +1,4 @@
-import { salario } from './01-salario';
+import { salario } from './02-salario';
 
 describe('Cálculos para folha de pagamento', () => {
     let valorSalario, valorDesconto;
@@ -17,10 +17,10 @@ describe('Cálculos para folha de pagamento', () => {
     });
 
     it('exibir o valor do salário após retirar os descontos e as faltas, se houver', () => {
-        expect(salario(valorSalario, valorDesconto, 5, 0)).toBe(800);
+        expect(salario(valorSalario, valorDesconto, 5, 0)).toBe(750);
     });
 
     it('exibir o valor do salário após retirar os descontos, faltas e somar as horas extras', () => {
-        expect(salario(valorSalario, valorDesconto, 5, 50)).toBe(850);
+        expect(salario(valorSalario, valorDesconto, 5, 50)).toBe(800);
     });
 });

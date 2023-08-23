@@ -8,7 +8,8 @@ CI/CD
 - github actions 
 
 # Criando códigos para integração contínua
-- criar a pasta .github contendo uma pasta chamada workflows com um arquivo hello-gh-actions.yml
+- na raiz do projeto:
+  - criar a pasta .github contendo uma pasta chamada workflows com um arquivo main.yml
 - hello github actions
 - actions para pull requests
 

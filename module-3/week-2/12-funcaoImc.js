@@ -7,9 +7,13 @@ let alturaRicardo = 1.7;
 let pesoGrazi = 50;
 let alturaGrazi = 1.65;
 
-let imcErica = calcularIMC(pesoErica, alturaErica, 'Erica');
-let imcRicardo = calcularIMC(pesoRicardo, alturaRicardo, 'Ricardo');
-let imcGrazi = calcularIMC(pesoGrazi, alturaGrazi, 'Grazi');
+let pesoRodrigo = 80;
+let alturaRodrigo = 1.78;
+
+// let imcErica = calcularIMC(pesoErica, alturaErica, 'Erica');
+// let imcRicardo = calcularIMC(pesoRicardo, alturaRicardo, 'Ricardo');
+// let imcGrazi = calcularIMC(pesoRodrigo, alturaGrazi, 'Grazi');
+let imcRodrigo = calcularIMC(pesoGrazi, alturaRodrigo, 'Rodrigo');
 
 function calcularIMC(peso, altura, nome) {
     let imc = peso / (altura * altura);

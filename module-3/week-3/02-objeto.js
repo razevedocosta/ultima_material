@@ -5,12 +5,12 @@
 //     email: 'rodrigo@gmail.com'
 // }
 
-// // Acessar um objeto e exibir os dados
-// console.log(cliente.nome);
+// Acessar um objeto e exibir os dados
+// console.log(cliente);
 
 // const chaves = ['nome', 'idade', 'rg', 'email'];
 
-// chaves.forEach(info => console.log(cliente[info]));
+// chaves.forEach(a => console.log(cliente[a]));
 
 // // Adicionando e alterando
 // cliente.fone = '9887542156';
@@ -53,43 +53,43 @@
 // console.log(cliente.saldo);
 
 // Percorrendo com for
-let relatorio = '';
-for (let info in cliente) {
-    relatorio += cliente[info]
-}    
+// let relatorio = '';
+// for (let info in cliente) {
+//     relatorio += cliente[info]
+// }    
 
-function consultarSeguro(item) {
-    const propsClientes = Object.keys(item);
+// function consultarSeguro(item) {
+//     const propsClientes = Object.keys(item);
 
-    if (propsClientes.includes('dependentes')) {
-        console.log('Aplicar seguro de vida!');
-    }
-}
+//     if (propsClientes.includes('dependentes')) {
+//         console.log('Aplicar seguro de vida!');
+//     }
+// }
 
-consultarSeguro(cliente);
+// consultarSeguro(cliente);
 
-function Pessoa(nome, cpf, saldo) {
-    this.nome = nome;
-    this.cpf = cpf;
-    this.saldo = saldo;
-    this.depositar = function(valor) {
-        this.saldo += valor;
-    }
-}
+// function Pessoa(nome, cpf, saldo) {
+//     this.nome = nome;
+//     this.cpf = cpf;
+//     this.saldo = saldo;
+//     this.depositar = function(valor) {
+//         this.saldo += valor;
+//     }
+// }
 
-const andre = new Pessoa("Rodrigo", "321654987", 1000);
+// const andre = new Pessoa("Rodrigo", "321654987", 1000);
 
-class Pessoa {
-    constructor(nome, saldo) {
-        this.nome = nome;
-        this.saldo = saldo;
-    }
+// class Pessoa {
+//     constructor(nome, saldo) {
+//         this.nome = nome;
+//         this.saldo = saldo;
+//     }
 
-    depositar(valor) {
-        this.saldo += valor;
-    }
+//     depositar(valor) {
+//         this.saldo += valor;
+//     }
 
-    exibirSaldo() {
-        console.log(this.saldo);
-    }
-}
+//     exibirSaldo() {
+//         console.log(this.saldo);
+//     }
+// }

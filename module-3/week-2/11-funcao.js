@@ -13,10 +13,10 @@
 // console.log(sobrenome);
 
 
-let a = 5;
+let a = 6;
 
-function quadrado(numero) {
+function calcularQuadradoDeUmNumero(numero) {
     return numero * numero;
 }
 
-console.log(quadrado(a));
+console.log(calcularQuadradoDeUmNumero(a));

@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quadrados</title>
+    <title>Login</title>
 
-    <style>
-        #externa {
-            width: 400px;
-            height: 400px;
-            background-color: #c4c4c4;
-
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        div {
-            width: 100px;
-            height: 100px;
-        }
-        #red {
-            background-color: red;
-        }
-        #green {
-            background-color: green;
-        }
-        #blue {
-            background-color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="externa">
-        <div id="red"></div>
-        <div id="green"></div>
-        <div id="blue"></div>
-    </div>
+    <main>
+        <section id="direita">
+            <form>
+                <h1>ultima</h1>
+
+                <h3>Login</h3>
+
+                <input type="text" placeholder="Email">
+
+                <input type="password" placeholder="Senha">
+
+                <div>
+                    <input type="checkbox">Lembrar-me
+
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+
+                <button>Entrar</button>
+            </form>
+        </section>
+
+        <section id="esquerda">
+            <img src="background.jpg" width="400" height="400">
+        </section>
+    </main>
+
 </body>
+
 </html>

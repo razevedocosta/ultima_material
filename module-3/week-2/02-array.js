@@ -1,31 +1,22 @@
-// 1 - Definição de Arrays
+// Array de strings contendo nomes de alunos
+let nomesAlunos = ["Ana", "Beatriz", "Carla", "Daiana"];
+// console.log(nomesAlunos);
 
-// 1.1 Array literal
-const nomesAlunos = ["Ana", "Beatriz", "Carla", "Daiana"];
-const mediasAlunos = [7, 8, 5, 10,];
-const numerosPrimos = [2, 3, 5, 7, 11];
-let listaVazia = [];
-let tudoMisturado = [1.1, true, "azul"];
+// Utilizando propriedades
+// console.log(nomesAlunos.length);
 
-// let soma = mediasAlunos[0]+mediasAlunos[1]+mediasAlunos[2]+mediasAlunos[3];
-// let media = soma / 4;
-// console.log("A média do aluno é: " + media);
+// Acessando um elemento a partir do índice
+// console.log(nomesAlunos[1]);
 
-// 1.2 Spread operator
-let a = [1, 2, 3];
-let b = [0, ...a, 4];
+let mediasAlunos = [10, 5, 6.5, 9, 8.2];
+console.log(mediasAlunos);
 
-// console.log(b);
+// Adicionar um elemento no final
+// mediasAlunos.push(10);
 
-// 1.3 Array Constructor
-let c = new Array(5, 4, 3, 2, 1);
+// Adicionar um elemento no início
+// mediasAlunos.unshift(2);
+// console.log(mediasAlunos);
 
-// console.log(c);
-
-// 1.4 Array.of
-let d = Array.of(11, 12, 13);
-
-// console.log(d);
-
-// 1.5 Array.from
-let e = Array.from(d);
+// Procura o elemento de valor 9 e retorna o índice, se existir
+console.log(mediasAlunos.indexOf(9));

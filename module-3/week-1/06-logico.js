@@ -8,7 +8,7 @@ const resultadoPratico = false;
 // NOT => !  executa o contrário do resultado obtido
 
 //       V                V                              F
-if (idade > 18 && resultadoPsicotenico == true && resultadoPratico == true) {
+if (idade >= 18 && resultadoPsicotenico == true && resultadoPratico == true) {
     console.log('Apto para dirigir!');
 } else {
     console.log('Que pena, tente de novo ano que vem!');
