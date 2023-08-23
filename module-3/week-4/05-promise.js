@@ -1,4 +1,4 @@
-let aceitar = false;
+let aceitar = true;
 
 console.log("Pedir Uber");
 
