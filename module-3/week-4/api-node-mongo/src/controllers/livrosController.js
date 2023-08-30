@@ -1,73 +1,120 @@
-import livros from "../models/Livro.js";
+import NaoEncontrado from "../erros/NaoEncontrado.js";
+import { autores, livros } from "../models/index.js";
 
 class LivroController {
 
-  static listarLivros = (req, res) => {
-    livros.find()
-      .populate('autor')
-      .exec((error, livros) => {
-        res.status(200).json(livros)
-      })
-  }
+  static listarLivros = async (req, res, next) => {
+    try {
+      const buscaLivros = livros.find();
 
-  static listarLivroPorId = (req, res) => {
-    const id = req.params.id;
+      req.resultado = buscaLivros;
 
-    livros.findById(id)
-      .populate('autor', 'nome')
-      .exec((error, livros) => {
-        if (error) {
-          res.status(400).send({ message: `${error.message} - ID não encontrado` })
-        } else {
-          res.status(200).send(livros)
-        }
-      })
-  }
+      next();
+    } catch (error) {
+      next(error);
+    }
+  };
 
-  static cadastrarLivro = (req, res) => {
-    let livro = new livros(req.body);
+  static listarLivroPorId = async (req, res, next) => {
+    try {
+      const id = req.params.id;
 
-    livro.save((error) => {
-      if (error) {
-        res.status(500).send({ message: `${error.message} - Falha ao cadastrar livro.` })
+      const livroResultado = await livros.findById(id)
+        .populate("autor", "nome")
+        .exec();
+
+      if (livroResultado !== null) {
+        res.status(200).send(livroResultado);
       } else {
-        res.status(201).send(livro.toJSON())
+        next(new NaoEncontrado("Id do livro não localizado."));
       }
-    })
-  }
+    } catch (error) {
+      next(error);
+    }
+  };
 
-  static atualizarLivro = (req, res) => {
-    const id = req.params.id;
+  static cadastrarLivro = async (req, res, next) => {
+    try {
+      let livro = new livros(req.body);
 
-    livros.findByIdAndUpdate(id, { $set: req.body }, (error) => {
-      if (!error) {
-        res.status(200).send({ message: 'Livro atualizado com sucesso!' })
+      const livroResultado = await livro.save();
+
+      res.status(201).send(livroResultado.toJSON());
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  static atualizarLivro = async (req, res, next) => {
+    try {
+      const id = req.params.id;
+
+      const livroResultado = await livros.findByIdAndUpdate(id, { $set: req.body });
+
+      if (livroResultado !== null) {
+        res.status(200).send({ message: "Livro atualizado com sucesso" });
       } else {
-        res.status(500).send({ message: error.message })
+        next(new NaoEncontrado("Id do livro não localizado."));
       }
-    })
-  }
+    } catch (error) {
+      next(error);
+    }
+  };
 
-  static excluirLivro = (req, res) => {
-    const id = req.params.id;
+  static excluirLivro = async (req, res, next) => {
+    try {
+      const id = req.params.id;
 
-    livros.findByIdAndDelete(id, (error) => {
-      if (!error) {
-        res.status(200).send({ message: 'Livro removido com sucesso!' })
+      const livroResultado = await livros.findByIdAndDelete(id);
+
+      if (livroResultado !== null) {
+        res.status(200).send({ message: "Livro removido com sucesso" });
       } else {
-        res.status(500).send({ message: error.message })
+        next(new NaoEncontrado("Id do livro não localizado."));
       }
-    })
-  }
+    } catch (error) {
+      next(error);
+    }
+  };
 
-  static listarLivroPorEditora = (req, res) => {
-    const editora = req.query.editora;
+  static listarLivroPorFiltro = async (req, res, next) => {
+    try {
+      const busca = await processaBusca(req.query);
 
-    livros.find({ 'editora': editora }, {}, (error, livros) => {
-      res.status(200).send(livros)
-    })
-  }
+      if (busca !== null) {
+        const livrosResultado = livros.find(busca).populate("autor");
 
+        req.resultado = livrosResultado;
+  
+        next();
+      } else {
+        res.status(200).send([]);
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
-export default LivroController
+async function processaBusca(parametros) {
+  const { editora, titulo, nomeAutor } = parametros;
+
+  let busca = {};
+
+  if (editora) busca.editora = editora;
+  if (titulo) busca.titulo = { $regex: titulo, $options: "i" };
+  if (nomeAutor) {
+    const autor = await autores.findOne({ nome: nomeAutor });
+
+    if (autor !== null) {
+      busca.autor = autor._id;
+    } else {
+      busca = null;
+    }
+
+  }
+
+  return busca;
+}
+
+export default LivroController;

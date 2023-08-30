@@ -50,3 +50,14 @@
 10. Criando outras consultas
 - Criar o método listarLivroPorEditora usando query params
 - Utilizar a rota para o método no arquivo livrosRoutes.js
+
+PARTE 2
+
+11. Criando variáveis de ambiente e ESLint
+- Executar npm install dotenv@16.0.3
+- Utilizar o import no server.js
+- Criar o arquivo .env
+- Executar npm init @eslint/config
+- npx eslint ./src --fix
+
+12. Utilizando try-catch para tratamento de erros
