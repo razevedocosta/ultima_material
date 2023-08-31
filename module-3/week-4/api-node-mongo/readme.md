@@ -1,4 +1,5 @@
 # Criando uma API Rest com Expresse e MongoDB
+Para executar o projeto: npm run dev
 
 1. Criando um projeto em NodeJS
 - Executar npm init -y para criar o arquivo package.json

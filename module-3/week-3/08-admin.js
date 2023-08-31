@@ -1,11 +1,11 @@
 import Usuario from "./05-classe.js";
 
 class Admin extends Usuario {
-    constructor (nome, email, tipo = 'admin') {
+    constructor(nome, email, tipo = 'admin') {
         super(nome, email, tipo)
     }
 
-    criarCurso (nomeCurso) {
+    criarCurso(nomeCurso) {
         return `Curso de ${nomeCurso} criado com sucesso!`;
     }
 }

@@ -3,14 +3,16 @@ function Usuario(nome, email) {
     this.email = email;
 
     this.exibirDados = function() {
-        return `${this.nome}, ${this.email}`
+        return `Oi, meu nome é ${this.nome}, e meu email é: ${this.email}`
     }
 
     this.ola = function() {
-        return `Olá!`;
+        return 'Olá!'
     }
 }
 
-const novoUsuario = new Usuario('Rodrigo', 'rodrigo@gmail.com');
+const novoUsuario = new Usuario('Diana', 'diana@gmail.com');
+const gabriel = new Usuario('Gabriel', 'gabriel@gmail.com');
 
-console.log(novoUsuario.exibirDados());
+console.log(novoUsuario.exibirDados())
+console.log(gabriel.ola())
