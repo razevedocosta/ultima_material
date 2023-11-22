@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            color: #5394F9;
+            text-decoration: none;
+        }
+
+        main {
+            width: 960px;
+            height: auto;
+            margin: 100px auto 0;
+
+            display: flex;
+        }
+
+        #safe-right {
+            width: 50%;
+            height: auto;
+            padding: 40px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+    
+            justify-content: space-evenly;
+
+            padding: 40px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+
+        form label {
+            margin-top: 16px;
+        }
+
+        form input {
+            border: none;
+            border: 1px solid #c4c4c4;
+            border-radius: 4px;
+            background-color: #f5f5f5;
+            padding: 14px 20px;
+            margin-top: 4px;
+        }
+
+        #safe-right div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #safe-opt {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            gap: 0.250rem;
+            margin-bottom: 16px;
+        }
+
+        button {
+            padding: 14px 20px;
+            border-radius: 4px;
+            background-color: #5394F9;
+            font-size: large;
+            color: #FFFFFF;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: black;
+            transition: 0.6s;
+        }
+
+        #safe-btn {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="safe-left">
+            <img src="https://github.com/razevedocosta.png">
+        </section>
+
+        <section id="safe-right">
+            <form>
+                <h3>Login</h3>
+
+                <label for="email">Email</label>
+                <input type="email" name="email">
+                <br>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+                <br>
+                <div>
+
+                    <div id="safe-opt"><input type="checkbox">Lembrar-me</div>
+
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+
+                <button>Entrar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

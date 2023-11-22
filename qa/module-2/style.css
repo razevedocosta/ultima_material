@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --azul-700: #5294F9AA;
+    --azul-500: #4285F4;
+    --preto: #000000;
+}
+
+a {
+    color: var(--preto);
+    text-decoration: none;
+    font-size: small;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+
+main {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;    
+}
+
+section h1 {
+    margin-top: 20px;
+    background-color: var(--azul-700);
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+    border-radius: 25px;
+    
+    -webkit-box-shadow: 9px 7px 10px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 9px 7px 10px -10px rgba(66, 68, 90, 1);
+    box-shadow: 9px 7px 10px -10px rgba(66, 68, 90, 1);
+}
+
+/* FORMAÇÃO */
+.safe-formacao,
+.safe-exp {
+    margin: 20px;
+}
+
+.safe-formacao h3 {
+    font-size: 18px;
+}
+
+.safe-formacao h4 {
+    font-weight: normal;
+    color: var(--azul-700);
+}
+
+.safe-formacao p {
+    font-size: small;
+}
+
+/* EXPERIENCIAS PROFISSIONAIS */
+.safe-exp h3 {
+    font-size: 18px;
+}
+
+.safe-exp h4 {
+    font-weight: normal;
+    color: var(--azul-700);
+}
+
+.safe-exp ul {
+    margin-left: 24px;
+    font-size: small;
+}
