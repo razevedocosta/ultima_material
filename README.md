@@ -1,6 +1,8 @@
 # ultima_material
-Arquivos de códigos utilizados nas aulas de:
+Arquivos de códigos utilizados nas aulas de QA e Python
  
+Na pasta de QA temos os arquivos referentes às semanas de:
+
 **1 html**
   - Definição de HTML
   - Estrutura de um documento
@@ -33,5 +35,11 @@ Arquivos de códigos utilizados nas aulas de:
 ** Links para projetos **
   - https://www.frontendmentor.io/challenges
   - https://github.com/florinpop17/app-ideas
+
+
+Na pasta de Python temos os arquivos referentes à:
+  - criação de banco de dados integrado ao sqlite
+  - web scraping de uma página web
+  - inserção dos registros coletados em tabelas
 
 Autor: Rodrigo Azevedo da Costa
