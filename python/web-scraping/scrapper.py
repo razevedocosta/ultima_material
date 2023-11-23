@@ -39,10 +39,10 @@ for i in range(total_de_paginas):
     html = response.read()
 
     for licitacao in licitacoes:
-        ano = licitacao .find('div', attrs={'class': 'lic-body-item al'})
-        mes = licitacao .find('div', attrs={'class': 'lic-body-item ml'})
-        numero = licitacao .find('div', attrs={'class': 'lic-body-item ed'})
-        natureza = licitacao .find('div', attrs={'class': 'lic-body-item st st-l'})
+        ano = licitacao.find('div', attrs={'class': 'lic-body-item al'})
+        mes = licitacao.find('div', attrs={'class': 'lic-body-item ml'})
+        numero = licitacao.find('div', attrs={'class': 'lic-body-item ed'})
+        natureza = licitacao.find('div', attrs={'class': 'lic-body-item st st-l'})
         
         lista_licitacoes.append([ano.text, mes.text, numero.text, natureza.text])
 
