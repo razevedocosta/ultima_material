@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Lora:wght@500&family=Solway:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --azul: #0866FF;
+            --azul-claro: #F0F2F5;
+
+            --cinza-claro: #DDDFE2;
+
+            --verde: #42B72A;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Lora', serif;
+            font-family: 'Solway', serif;
+
+            background-color: var(--azul-claro);
+        }
+
+        main {
+            margin: 0 auto;
+
+            max-width: 960px;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+
+            gap: 8px;
+        }
+
+        /* LADO ESQUERDO */
+        h1 {
+            color: var(--azul);
+        }
+
+        /* LADO DIREITO */
+        form {
+            width: 320px;
+            height: 270px;
+            background-color: white;
+            border-radius: 4px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            padding: 20px 16px;
+
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        }
+
+        form input {
+            background-color: transparent;
+            border: 1px solid var(--cinza-claro);
+            border-radius: 4px;
+            padding: 16px 8px;
+        }
+
+        #btn-enviar {
+            background-color: var(--azul);
+            border: none;
+            color: white;
+            border-radius: 4px;
+            padding: 16px 32px;
+        }
+
+        #btn-itens {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: transparent;
+        }
+
+        #btn-criar {
+            background-color: var(--verde);
+            border: none;
+            color: white;
+            border-radius: 4px;
+            padding: 16px 32px;
+            margin-top: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--azul);
+            font-size: 14px;
+            margin: 8px 0;
+        }
+
+        img {
+            border: 1px solid var(--cinza-claro);
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>facebook</h1>
+            <p>
+                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+            </p>
+            <img src="https://github.com/razevedocosta.png" width="80" height="80">
+            <img src="https://github.com/filipedeschamps.png" width="80" height="80">
+            <img src="https://github.com/iuricode.png" width="80" height="80">
+            <img src="https://github.com/RitikPatni.png" width="80" height="80">
+            <img src="https://github.com/DCubix.png" width="80" height="80">
+        </section>
+
+        <section>
+            <form>
+                <input type="email" placeholder="Email ou telefone">
+                <input type="password" placeholder="Senha">
+                <button id="btn-enviar">Enviar</button>
+                <div id="btn-itens">
+                    <a href="#">Esqueceu a senha?</a>
+                    <button id="btn-criar">Criar nova conta</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
